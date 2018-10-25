@@ -1,0 +1,31 @@
+ul,li{
+list-style:none;
+margin:0;
+padding:0;
+}
+#box{
+width:1000px;
+height:400px
+margin:0 auto;
+overflow:hidden;
+position:relative;
+}
+#lunbo{
+width:4000px;
+height:400px
+display:flex;
+jusify-content:flex-start;
+position:absolute;
+}
+a.left,a.right{
+opacity:0;
+display:block;
+width:25px;
+height:35px;
+position:absolute;
+top:188px;
+background:url(img/ad-arraw.png)no-repeat;
+}
+#box:hover a{
+opacity:1;
+}
